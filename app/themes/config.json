@@ -1,13 +1,12 @@
 [
-//{
-//  "name": "default",
-//  "friendly_name": "Default Theme",
-//  "id": "default",
-//  "screenshots": [
-//    "http://propertywebbuilder.com/images/rerenting-landing_framed.png",
-//    "http://propertywebbuilder.com/images/rerenting-landing_framed.png"
-//  ]
-//}
+{
+  "name": "default",
+  "friendly_name": "Default Theme",
+  "id": "default",
+  "screenshots": [
+    "http://propertywebbuilder.com/images/rerenting-landing_framed.png"
+  ]
+}
 //, {
 //  "name": "berlin",
 //  "friendly_name": "Berlin Theme",
@@ -15,11 +14,11 @@
 //}
 // }, {
 
-{ 
-	"name": "matt",
-    "friendly_name": "Matt Theme",
-    "id": "matt"
-}
+//{ 
+//	"name": "matt",
+//    "friendly_name": "Matt Theme",
+//    "id": "matt"
+//}
 //, {
 //   "name": "airbnb",
 //   "friendly_name": "Airbnb Theme",
