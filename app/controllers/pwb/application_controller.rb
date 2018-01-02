@@ -50,7 +50,7 @@ module Pwb
     end
 
     def footer_content
-      @footer_content = Content.find_by_key("footerInfo") || OpenStruct.new
+      @footer_content = Content.find_by_key("footerInfos") || OpenStruct.new
     end
 
     def nav_links
