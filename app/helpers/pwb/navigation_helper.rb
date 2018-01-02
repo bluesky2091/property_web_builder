@@ -6,7 +6,7 @@ module Pwb
       @tn_links ||= Pwb::Link.ordered_visible_top_nav
       @tn_links.each do |page|
         # disable the following pages: Admin, About, Contact, and Sell
-        unless page.slug == "top_nav_admin" || page.slug["bout"] || page.slug["ontact"] || page.slug["ell"]
+        unless page.slug == "top_nav_admin" || page.slug["bout"] || page.slug["ontact"]
           html += (top_nav_link_for page) || ""
         end
       end
