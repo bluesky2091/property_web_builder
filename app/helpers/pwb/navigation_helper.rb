@@ -18,9 +18,9 @@ module Pwb
       html = ""
       @ftr_links ||= Pwb::Link.ordered_visible_footer
       @ftr_links.each do |page|
-        html += (footer_link_for page) || ""
+        #html += (footer_link_for page) || ""
         # only displat one row
-        break
+        #break
       end
       html.html_safe
     end
