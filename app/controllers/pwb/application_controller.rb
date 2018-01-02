@@ -50,8 +50,7 @@ module Pwb
     end
 
     def footer_content
-      # disable footer information
-      #@footer_content = Content.find_by_key("footerInfo") || OpenStruct.new
+      @footer_content = Content.find_by_key("footerInfo") || OpenStruct.new
     end
 
     def nav_links
