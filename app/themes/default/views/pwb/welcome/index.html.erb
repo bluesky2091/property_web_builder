@@ -29,6 +29,11 @@
 <%# end %>
 
 <%# Blocks for "About us" %>
-<% if @about_us %>
-<%= render '/pwb/welcome/about_us' %>
+<%# if @about_us %>
+<%#= render '/pwb/welcome/about_us' %>
+<%# end %>
+
+<%# Blocks for "About us" %>
+<% if @contact_us.length > 0 %>
+<%= render '/pwb/sections/contact_us' %>
 <% end %>
