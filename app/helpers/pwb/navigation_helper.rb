@@ -5,8 +5,8 @@ module Pwb
       html = ""
       @tn_links ||= Pwb::Link.ordered_visible_top_nav
       @tn_links.each do |page|
-        # disable the following pages: Admin, About, Contact
-        unless page.slug == "top_nav_admin" || page.slug["bout"] || page.slug["ontact"]
+        # disable the following pages: Admin, About, Contact, and Sell
+        unless page.slug == "top_nav_admin" || page.slug["bout"] || page.slug["ontact"] || page.slug["ell"]
           html += (top_nav_link_for page) || ""
         end
       end
@@ -18,9 +18,7 @@ module Pwb
       html = ""
       @ftr_links ||= Pwb::Link.ordered_visible_footer
       @ftr_links.each do |page|
-        #html += (footer_link_for page) || ""
-        # only displat one row
-        #break
+        html += (footer_link_for page) || ""              
       end
       html.html_safe
     end
