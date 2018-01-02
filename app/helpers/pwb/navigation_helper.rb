@@ -5,7 +5,7 @@ module Pwb
       html = ""
       @tn_links ||= Pwb::Link.ordered_visible_top_nav
       @tn_links.each do |page|
-        unless page.slug == "top_nav_admin"
+        unless page.slug == "top_nav_admin" || page.slug.include? "about"
           html += (top_nav_link_for page) || ""
         end
       end
