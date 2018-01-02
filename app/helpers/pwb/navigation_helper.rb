@@ -5,6 +5,7 @@ module Pwb
       html = ""
       @tn_links ||= Pwb::Link.ordered_visible_top_nav
       @tn_links.each do |page|
+        echo page.slug
         unless page.slug == "top_nav_admin"
           html += (top_nav_link_for page) || ""
         end
@@ -67,7 +68,7 @@ module Pwb
         style_class = 'selected active' if current_page?( target_path )
         if current_page?("/") && (page[:link_path] == "home_path")
           # so correct tab is higlighted when at root path
-          style_class = 'selected active'
+          # style_class = 'selected active'
         end
         html = <<-HTML
         <li class="#{style_class}">
