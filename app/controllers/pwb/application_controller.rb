@@ -50,6 +50,7 @@ module Pwb
     end
 
     def footer_content
+      # footerInfo ! There is no footerInfos
       @footer_content = Content.find_by_key("footerInfos") || OpenStruct.new
     end
 
