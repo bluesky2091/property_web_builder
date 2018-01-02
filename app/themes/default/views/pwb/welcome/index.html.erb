@@ -18,10 +18,10 @@
 <% end  %>
 
 <%# Blocks for "Property for sale" %>
-<%# render '/pwb/welcome/content_area_cols' %>
-<%# if @properties_for_sale.length > 0  %>
+<% render '/pwb/welcome/content_area_cols' %>
+<% if @properties_for_sale.length > 0  %>
   <%#= render :partial => '/pwb/welcome/single_property_row', :locals => { properties: @properties_for_sale, rent_or_sale: 'for_sale', title_key: 'propertyForSale' }  %>
-<%# end %>
+<% end %>
 
 <%# Blocks for "Property for rent" %>
 <%# if @properties_for_rent.length > 0  %>
@@ -32,8 +32,3 @@
 <%# if @about_us %>
 <%#= render '/pwb/welcome/about_us' %>
 <%# end %>
-
-<%# Blocks for "About us" %>
-<% if @contact_us.length > 0 %>
-<%= render :partial => '/pwb/sections/contact_us' %>
-<% end %>
