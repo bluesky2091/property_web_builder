@@ -2,16 +2,7 @@ footer {
   padding-top: 15px;
   padding-bottom: 20px;
   min-height: 30px;
-  /*background: #232323
-  replaced with fondo_secundario
-  */
 }
-
-
-/*footer {
-  padding-bottom: 5px;
-}
-*/
 
 footer:before,
 footer:after {
@@ -57,9 +48,7 @@ header.top_header {
   min-height: 25px;
 }
 
-
 /*start sticky footer*/
-
 
 /*http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page*/
 
@@ -77,21 +66,14 @@ body {
 
 .sticky-body {
   /*below is enough space for footer  */
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
-
-
-/*#header {
-   background:#ff0;
-   padding:10px;
-}*/
 
 .fondo_footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 200px;
-  /*background:#6cf;*/
+  height: 150px;
 }
 
 
@@ -103,27 +85,6 @@ body {
     padding-right: 4px;
   }
 }
-
-/*footer {
-  .footer-extra {
-    color: #ccc;
-    font-size: 13px;
-    margin-top: auto;
-  }
-  .social-default i {
-    width: 40px;
-    height: 40px;
-    display: inline-block;
-    padding: 10px;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    color: #333;
-    border-radius: 2px;
-  }
-}*/
 
 footer .col.reset {
   margin: 0
@@ -137,12 +98,6 @@ footer h4 {
   font-size: 14px;
   font-weight: 500
 }
-
-/*footer .col p {
-  color: #ccc;
-  font-size: 13px;
-  margin-bottom: 10px
-}*/
 
 footer a {
   color: #ccc;
