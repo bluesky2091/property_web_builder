@@ -1,7 +1,7 @@
 footer {
-  padding-top: 5px;
-  padding-bottom: 5px;
-  max-height: 25px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  max-height: 10px;
 }
 
 footer:before,
@@ -55,17 +55,17 @@ html,
 body {
   margin: 0;
   padding: 0;
-  height: 100%;
+  height: 15px;
 }
 
 .sticky-wrap {
-  min-height: 100%;
+  min-height: 15px;
   position: relative;
 }
 
 .sticky-body {
   /*below is enough space for footer  */
-  padding-bottom: 5px;
+  padding-bottom: 1px;
 }
 
 .fondo_footer {
